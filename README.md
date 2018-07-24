@@ -18,7 +18,7 @@ Keywords in this implementation:
 Refer to the link if you can see the pic: https://drive.google.com/open?id=1M-OCdhPYnqwUkWvNlwUHRMYzI8snJn76
 ![GitHub][github]
 
-[github]: https://drive.google.com/open?id=1M-OCdhPYnqwUkWvNlwUHRMYzI8snJn76 "Graph"
+[github]: https://github.com/zoey-juan/MoveTracker/blob/master/design_graph.png "Graph"
 
 ## B. Testing - junit/mockito/robolectric
 
