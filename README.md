@@ -8,9 +8,8 @@ Notice!!
 Keywords in this implementation:
 1. ViewModel/LiveData/Room
 2. Kotlin/rxjava2
-3. Kotlin
-4. unit test - junit/mockito/robolectric
-5. Others - retrofit2/picasso
+3. Unit test - junit/mockito/robolectric
+4. Others 3rd-party API - retrofit2/picasso/renaudcerrato:static-maps-api
 
 
 ## A. Architecture
@@ -31,9 +30,9 @@ Refer to the link if you can see the pic: https://drive.google.com/open?id=1M-OC
 3. For MainActivity and , we can mock it easily after replace the variable which in the MainActivity.inject()
    to Dagger Injection.
 
-## C. Others - retrofit2/picasso, simple memory cache for reducing request
+## C. Others - retrofit2/picasso/renaudcerrato:static-maps-api
 
-1. use 3rd-party library here to handle http request and image cache loading easily.
+1. Use 3rd-party library to handle http request, image cache loading and build static-maps URL easily.
 
 ## D. Known Issue For More Improvement
 
